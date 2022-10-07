@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.priyansh{
+    overflow: hidden;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+    z-index: 10;
+}
+
+.navbar_netflix {
+    width: 125px;
+    height: 100%;
+}
+
+.navbar__nav__items {
+    display: flex;
+    gap: 10px;
+}
+
+.netflix_logo {
+    width: 100%;
+    height: 100%;
+
+}
+
+.language_drop_down {
+    line-height: 1.3em;
+    overflow: hidden;
+    background: #00000066;
+    color: white;
+    padding-left: 1.375rem;
+    padding-right: 1.375rem;
+    white-space: nowrap;
+}
+
+.dropdown__container {
+    border: 1px solid white;
+    padding: 0.3rem;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.signin__button {
+    border: #dc030f;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    background: #dc030f;
+    color: white;
+    height: 30px;
+    width: 90px;
+}
+
+.hero__bg__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.hero__bg__overlay {
+    position: relative;
+    /* inset: 0; */
+    width: 100%;
+    height: 100%;
+    color: linear-gradient(rgb(16, 16, 16));
+    z-index: 10000;
+}
+
+.hero__card {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero__title {
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.hero__substitle,
+.hero__description {
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.email {
+    width: 450px;
+    height: 50px;
+    color: black;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    border-color: white;
+}
+
+.get_started {
+    font-size: large;
+    width: 150px;
+    height: 50px;
+    background-color: #dc030f;
+    border: 1px solid #dc030f;
+    color: white;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+    border-top: 8px white;
+
+}
+
+.card-1 {
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+}
+
+.desc-1 {
+    padding-left: 150px;
+}
+
+.card-1 video {
+    position: relative;
+    width: 600px;
+    height: 450px;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: -1;
+}
+
+.card-1 img {
+    grid-column: 2/2;
+    grid-row: 1/2;
+    width: 600px;
+    height: 450px;
+}
+
+.style-card h1 {
+    font-size: 3rem;
+    padding: 1rem;
+    padding-left: 0rem;
+    width: 130%;
+    height: 130%;
+
+}
+
+.style-card h3 {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.card-2 {
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+
+    
+}
+
+.desc-2 {
+    padding-left: 150px;
+}
+
+.card-2 h1,
+h3 {
+    font-size: 3rem;
+    padding: 1rem;
+    padding-right: 0rem;
+    width: 160%;
+    height: 130%;
+    align-items: center;
+
+}
+
+.card-2 img {
+   
+    grid-column: 1/2;
+    grid-row: 1/4;
+    width: 430px;
+    height: 450px;
+    padding-left: 130px;
+}
+
+.card-3 {
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+}
+
+.desc-3 {
+    
+    padding-left: 80px;
+
+}
+
+.card-3 img {
+    
+    grid-column: 2/2;
+    grid-row: 1/2;
+    width: 600px;
+    height: 450px;
+}
+
+.card-3 video {
+    position: relative;
+    top: -47px;
+    left: 107px;
+    width: 80%;
+    height: 80%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: -1;
+}
+
+.card-4 {
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+
+}
+
+.desc-4 {
+    padding-left: 150px;
+}
+
+
+.card-4 h1,
+h3 {
+    font-size: 3rem;
+    padding: 1rem;
+    padding-right: 0rem;
+    width: 160%;
+    height: 130%;
+    align-items: center;
+
+}
+
+.hero_second { 
+    margin-top: 60px;  
+    text-align: center;  
+
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-bottom: 150px;
+}
+
+.email {
+    width: 450px;
+    height: 50px;
+    color: black;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    border-color: white;
+}
